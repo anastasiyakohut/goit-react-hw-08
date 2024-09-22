@@ -1,12 +1,22 @@
-.container {
+.label {
+  font-size: 1rem;
+  color: #333;
+  margin-right: 10px;
   display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  align-items: center;
 }
 
 .input {
-  padding: 8px 16px;
-  max-width: 300px;
+  padding: 6px;
+  border: transparent;
   border-radius: 4px;
+  font-size: 0.875rem;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+  min-width: 230px;
+}
+
+.input:focus {
+  border-color: #61dafb;
 }

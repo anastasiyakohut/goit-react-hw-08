@@ -1,6 +1,14 @@
-.container {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  width: 100%;
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s, color 0.3s;
+}
+
+.item:hover {
+  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
 }
