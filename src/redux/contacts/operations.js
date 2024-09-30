@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const API_URL = "https://connections-api.goit.global/";
+const API_URL = `https://connections-api.goit.global`;
 
 export const fetchAll = createAsyncThunk(
     "contacts/fetchContacts",
